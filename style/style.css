@@ -1,0 +1,203 @@
+html {
+	font-size: calc(0.45em + 0.5vw);
+	background-color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+	position: relative;
+	z-index: 5;
+	height: 100vh;
+	background-color: #44C083;
+}
+
+.main-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 14vw;
+	line-height: 12vw;
+}
+
+.detail {
+	padding-bottom: 5%;
+	position: relative;
+	z-index: 5;
+	box-sizing: border-box;
+}
+
+.detail-title {
+	padding-top: 2.5%;
+	margin-left: 25%;
+	margin-right: 5%;
+	font-weight: 700;
+	font-size: 4em;
+}
+
+.detail-subtitle {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 25%;
+	margin-right: 5%;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.detail-description {
+	margin-right: 5%;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+.detail-image {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 25%;
+	margin-right: 5%;
+	width: 65%;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.column-full {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.column-left {
+	margin-left: 25%;
+	width: 28%;
+	display: inline-block;
+	float: left;
+}
+
+.column-right {
+	width: 28%;
+	display: inline-block;
+}
+
+.panel {
+	width: 100vh;
+	height: 20vw;
+    transform: rotate(90deg);
+    transform-origin: left top;
+	position: fixed;
+	font-weight: 700;
+	font-size: 14vw;
+	line-height: 20vw;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* ------------ PANEL STYLES ------------ */
+
+.journal-mainpanel {
+	background-color: #AC001E;
+	color: #FFFFFF;
+	height: 2vw;
+	left: 100vw;
+	z-index: 40;
+  	transition: left ease 0.5s;
+}
+
+.typesetting-mainpanel {
+	background-color: #FED549;
+	color: #000000;
+	height: 2vw;
+	left: 98vw;
+	z-index: 30;
+}
+
+.news-mainpanel {
+	background-color: #005E9C;
+	color: #FFFFFF;
+	height: 2vw;
+	left: 96vw;
+	z-index: 20;
+}
+
+.humorous-mainpanel {
+	background-color: #CF9DDE;
+	color: #000000;
+	height: 2vw;
+	left: 94vw;
+	z-index: 10;
+}
+
+
+
+
+/* ------------ PAGE STYLES ------------ */
+
+.humorous-page {
+	background-color: #CF9DDE;
+	color: #000000;
+}
+
+.humorous-detailpanel {
+	background-color: #CF9DDE;
+	color: #000000;
+	left: 20%;
+	z-index: 10;
+}
+
+.news-page {
+	background-color: #005E9C;
+	color: #FFFFFF;
+}
+
+.news-detailpanel {
+	background-color: #005E9C;
+	color: #FFFFFF;
+	left: 20%;
+	z-index: 10;
+}
+
+.typesetting-page {
+	background-color: #FED549;
+	color: #000000;
+}
+
+.typesetting-detailpanel {
+	background-color: #FED549;
+	color: #000000;
+	left: 20%;
+	z-index: 10;
+}
+
+.journal-page {
+	background-color: #AC001E;
+	color: #FFFFFF;
+}
+
+.journal-detailpanel {
+	background-color: #AC001E;
+	color: #FFFFFF;
+	left: 20%;
+	z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
